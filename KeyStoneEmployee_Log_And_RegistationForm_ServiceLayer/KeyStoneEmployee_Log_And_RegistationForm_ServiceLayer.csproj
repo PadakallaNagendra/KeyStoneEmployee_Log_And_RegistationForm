@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KeyStoneEmployee_Log_And_RegistationForm_BusinessObject\KeyStoneEmployee_Log_And_RegistationForm_BusinessObject.csproj" />
+    <ProjectReference Include="..\KeyStoneEmployee_Log_And_RegistationForm_RepositaryLayer\KeyStoneEmployee_Log_And_RegistationForm_RepositaryLayer.csproj" />
+  </ItemGroup>
+
+</Project>
